@@ -1,0 +1,12 @@
+name: Greeter
+on: [push]
+jobs:
+  build:
+    name: Greeting
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello
+        uses: actions/hello-world-javascript-action@v1
+        with:
+          who-to-greet: 'Marius'
+        id: hello
