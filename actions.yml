@@ -1,0 +1,5 @@
+name: Explore Debug
+description: Show available data for runs
+runs:
+  using: docker
+  image: Dockerfile
